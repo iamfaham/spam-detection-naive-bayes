@@ -32,8 +32,8 @@ git clone https://github.com/&lt;your-user&gt;/sms-spam-nb.git
 cd sms-spam-nb
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
 ```
+
 
 ### 2 · Run the notebook
 ```
@@ -46,7 +46,7 @@ jupyter notebook spam_detection_naive_bayes.ipynb
 
 ## Project Structure
 ```
-sms-spam-nb/
+spam_detection_naive_bayes/
 │
 ├─ spam_detection_naive_bayes.ipynb   ← Main notebook (step-by-step tutorial)
 └─ README.md                          ← You are here
@@ -88,7 +88,3 @@ sms-spam-nb/
 * **Explainability**: integrate SHAP for per-message feature attributions.  
 * **Dataset augmentation**: blend newer SMS/phishing corpora to stay current.
 
----
-
-## License
-This repository is released under the **MIT License**—see `LICENSE` for details.
