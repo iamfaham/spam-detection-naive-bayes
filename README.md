@@ -49,7 +49,6 @@ jupyter notebook spam_detection_naive_bayes.ipynb
 sms-spam-nb/
 │
 ├─ spam_detection_naive_bayes.ipynb   ← Main notebook (step-by-step tutorial)
-├─ requirements.txt                   ← Minimal Python dependencies
 └─ README.md                          ← You are here
 ```
 
